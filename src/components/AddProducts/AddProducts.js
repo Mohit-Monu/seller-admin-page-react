@@ -23,6 +23,9 @@ function AddProducts(props) {
     };
 
     props.onAddProduct(obj);
+    setProductId("")
+    setSellingPrice("")
+    setProductName("")
   }
   return (
     <div>
